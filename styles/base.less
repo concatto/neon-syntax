@@ -54,7 +54,7 @@ atom-text-editor.is-focused,atom-text-editor {
   }
 
   .line-number.cursor-line-no-selection, .line.cursor-line {
-    background-color: fadeout(darken(@syntax-background-color, 3%), 50%);
+    background-color: @cursor-line-color;
   }
 }
 
@@ -101,8 +101,8 @@ atom-text-editor.is-focused,atom-text-editor {
 }
 
 .syntax--support.syntax--function {
-  color: #ADAeB2;
-  text-shadow: 0px 0px @blur rgba(189, 190, 130, @opacity);
+  color: #b1d4d0;
+  text-shadow: 0px 0px @blur rgba(122, 213, 226, @opacity);
 }
 
 .syntax--variable.syntax--other.external-symbol {
@@ -147,8 +147,8 @@ atom-text-editor.is-focused,atom-text-editor {
   }
 
   &.syntax--name.syntax--function {
-    color: rgba(18, 255, 169, 0.97);
-    text-shadow: 0px 0px @blur rgba(34, 255, 169, @opacity);
+    color: rgba(18, 255, 210, 0.97);
+    text-shadow: 0px 0px @blur rgba(34, 255, 230, @opacity);
   }
 
   &.syntax--name.syntax--function.syntax--io {
@@ -173,7 +173,7 @@ atom-text-editor.is-focused,atom-text-editor {
 }
 
 .syntax--meta.syntax--class, .syntax--entity.syntax--name.syntax--class, .syntax--entity.syntax--name.syntax--type.syntax--class {
-  color: #ff4377;
+  color: rgba(255, 117, 117, 0.7);
   text-shadow: 0px 0px @blur rgba(255, 51, 153, @opacity);
 }
 
