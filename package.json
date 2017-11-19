@@ -1,11 +1,50 @@
 {
-  "name": "neon-syntax",
-  "theme": "syntax",
-  "version": "0.3.7",
+  "_from": "file:/tmp/d-1171011-2945-fuz6wo.anu4a/package.tgz",
+  "_id": "neon-syntax@0.3.7",
+  "_inBundle": false,
+  "_integrity": "sha1-fI3jJBN3xXfHRcJjHkPYPbeMIok=",
+  "_location": "/neon-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "file",
+    "where": "/tmp/apm-install-dir-1171011-2945-1xu4gfh.6g8",
+    "raw": "/tmp/d-1171011-2945-fuz6wo.anu4a/package.tgz",
+    "rawSpec": "/tmp/d-1171011-2945-fuz6wo.anu4a/package.tgz",
+    "saveSpec": "file:/tmp/d-1171011-2945-fuz6wo.anu4a/package.tgz",
+    "fetchSpec": "/tmp/d-1171011-2945-fuz6wo.anu4a/package.tgz"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "/tmp/d-1171011-2945-fuz6wo.anu4a/package.tgz",
+  "_spec": "/tmp/d-1171011-2945-fuz6wo.anu4a/package.tgz",
+  "_where": "/tmp/apm-install-dir-1171011-2945-1xu4gfh.6g8",
+  "bugs": {
+    "url": "https://github.com/anomaly256/neon-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
   "description": "Neon syntax theme for Atom inspired by and based on the Farzher Neon Sublime Text 2/3 theme, using CSS text-shadow to implement the glow effect",
-  "repository": "https://github.com/anomaly256/neon-syntax",
-  "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/anomaly256/neon-syntax#readme",
+  "license": "MIT",
+  "name": "neon-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anomaly256/neon-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.3.7",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
   }
 }

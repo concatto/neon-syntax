@@ -1,7 +1,7 @@
 @import "syntax-variables";
 
 atom-text-editor,atom-text-editor {
-  background-color: @syntax-background-color;
+  background-color: @syntax-background-color-dsat;
   color: @syntax-text-color;
   -webkit-filter: contrast(@contrast);
   -webkit-filter: saturate(@saturation);
@@ -54,7 +54,7 @@ atom-text-editor.is-focused,atom-text-editor {
   }
 
   .line-number.cursor-line-no-selection, .line.cursor-line {
-    background-color: #282828;
+    background-color: fadeout(darken(@syntax-background-color, 3%), 50%);
   }
 }
 

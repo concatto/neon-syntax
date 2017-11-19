@@ -8,10 +8,11 @@
 @saturation: 200%;
 
 // General colors
-@syntax-text-color: #71787c;
+@syntax-text-color: #B7C5D3;;
 @syntax-cursor-color: #D8D9D1;
 @syntax-selection-color: #223F63;
-@syntax-background-color: #1c1c1c;
+@syntax-background-color: #20282b;
+@syntax-background-color-dsat: desaturate(@syntax-background-color, 5%);
 
 // Guide colors
 @syntax-wrap-guide-color: #444444;
@@ -25,8 +26,8 @@
 // Gutter colors
 @syntax-gutter-text-color: #71787c;
 @syntax-gutter-text-color-selected: #71787c;
-@syntax-gutter-background-color: #1c1c1c;
-@syntax-gutter-background-color-selected: #282828;
+@syntax-gutter-background-color: lighten(@syntax-background-color-dsat, 2%);
+@syntax-gutter-background-color-selected: darken(@syntax-gutter-background-color, 5%);
 
 // For git diff info. i.e. in the gutter
 // These are static and were not extracted from your textmate theme
