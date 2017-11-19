@@ -20,20 +20,20 @@
   "_spec": "/tmp/d-1171011-2945-fuz6wo.anu4a/package.tgz",
   "_where": "/tmp/apm-install-dir-1171011-2945-1xu4gfh.6g8",
   "bugs": {
-    "url": "https://github.com/anomaly256/neon-syntax/issues"
+    "url": "https://github.com/concatto/neon-syntax/issues"
   },
   "bundleDependencies": false,
   "deprecated": false,
-  "description": "Neon syntax theme for Atom inspired by and based on the Farzher Neon Sublime Text 2/3 theme, using CSS text-shadow to implement the glow effect",
+  "description": "Neon syntax theme for Atom inspired by and based on the Farzher Neon Sublime Text 2/3 theme, using CSS text-shadow to implement the glow effect. Originally by anomaly256.",
   "engines": {
     "atom": ">0.50.0"
   },
-  "homepage": "https://github.com/anomaly256/neon-syntax#readme",
+  "homepage": "https://github.com/concatto/neon-syntax#readme",
   "license": "MIT",
   "name": "neon-syntax",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anomaly256/neon-syntax.git"
+    "url": "git+https://github.com/concatto/neon-syntax.git"
   },
   "theme": "syntax",
   "version": "0.3.7",
